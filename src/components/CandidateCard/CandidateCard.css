@@ -1,0 +1,33 @@
+.candidate__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 10px 5px;
+    width: 25rem;
+    min-height: 30rem;
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: var(--color-white);
+}
+
+.animate {
+    transition: transform .3s ease-out;
+}
+
+.animate:hover {
+    transform: scale(1.1);
+}
+
+.candidate__img {
+    width: 70%;
+    object-fit: contain;
+    flex: 1;
+}
+
+.candidate__name {
+    font-size: 1.8rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+}

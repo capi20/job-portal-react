@@ -1,0 +1,16 @@
+.candidate__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.message {
+    margin-top: 25rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    color: var(--color-black);
+}
